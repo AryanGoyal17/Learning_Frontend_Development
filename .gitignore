@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build / temp
+*.log
+
+# Live Server cache (VS Code)
+.live-server
+
+# Node (if you add later)
+node_modules/
