@@ -1,16 +1,16 @@
-# OS files
+## OS files
 .DS_Store
 Thumbs.db
 
-# Editor settings
+## Editor settings
 .vscode/
 .idea/
 
-# Build / temp
+## Build / temp
 *.log
 
-# Live Server cache (VS Code)
+## Live Server cache (VS Code)
 .live-server
 
-# Node (if you add later)
+## Node (if you add later)
 node_modules/
