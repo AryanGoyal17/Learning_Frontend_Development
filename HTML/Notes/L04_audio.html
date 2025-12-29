@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserting audio files in a Webpage</title>
+</head>
+<body>
+
+    <p>Audio-1</p>
+    <audio controls autoplay muted loop>
+        <source src = "../../Files/Down The Rabbit Hole - The Grey Room _ Density & Time.mp3" type = "audio/mp3">
+    </audio>
+
+    <pre>Audio-2</pre>
+    <audio controls muted>
+        <source src = "../../Files/In The Morning - The Grey Room _ Clark Sims.mp3" type = "audio/mp3">
+    </audio>
+
+    <pre>Audio-3</pre>
+    <audio controls loop>
+      <source src = "../../Files/On The Flip - The Grey Room _ Density & Time.wav" type = "audio/wav"> <!--if wav not supported, mp3 plays-->
+      <source src = "../../Files/On The Flip - The Grey Room _ Density & Time.mp3" type = "audio/mp3"> <!--if mp3 not supported, no audio played-->
+    </audio>
+
+    <!--if controls attribute not added to audio tag.. the audio doesnt appear on webpage-->
+    <audio>
+        <source src = "../../Files/On The Flip - The Grey Room _ Density & Time.mp3" type = "audio/mp3">
+    </audio>
+    <!---->
+    
+</body>
+</html>
