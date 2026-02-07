@@ -11,7 +11,7 @@ let name = "Aryan";
 let isOnline = true; 
 let isForSale = false;
 
-// true = 1, false = 0, FALSE in JAVA-SCRIPT..
+// true = 1, false = 0, is not there in JAVA-SCRIPT..
 
 //Number data type
 
