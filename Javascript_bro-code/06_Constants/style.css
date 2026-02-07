@@ -1,7 +1,8 @@
-.body{
-    background-color: rgb(73, 106, 135);
+body{
+    background-color: rgb(98, 115, 131);
 }
 
-.pre{
+pre{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
