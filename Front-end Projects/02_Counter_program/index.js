@@ -1,20 +1,27 @@
-let default_val = 0;
-let val_change = 0
+const increment_button = document.getElementById("increase");
+const decrement_button = document.getElementById("decrease");
+const reset_button = document.getElementById("reset");
+const counter = document.getElementById("counter");
 
+let count = 0;
 
+increment_button.onclick =  function(){
 
-document.getElementById("decrease").onclick = function(){
-    
-    document.getElementById("counter").textContent = --val_change;
+    count++;
+    counter.textContent = count;
+
 }
 
-document.getElementById("increase").onclick = function(){
+decrement_button.onclick =  function(){
+
+    count--;
+    counter.textContent = count;
     
-    document.getElementById("counter").textContent = ++val_change;
 }
 
-document.getElementById("reset").onclick = function(){
-    
-    document.getElementById("counter").textContent = default_val;
-    val_change = 0
+reset_button.onclick =  function(){
+
+    count = 0;
+    counter.textContent = count;
+
 }
