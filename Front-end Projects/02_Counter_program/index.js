@@ -5,12 +5,12 @@ let val_change = 0
 
 document.getElementById("decrease").onclick = function(){
     
-    document.getElementById("counter").textContent = val_change--;
+    document.getElementById("counter").textContent = --val_change;
 }
 
 document.getElementById("increase").onclick = function(){
     
-    document.getElementById("counter").textContent = val_change++;
+    document.getElementById("counter").textContent = ++val_change;
 }
 
 document.getElementById("reset").onclick = function(){
