@@ -36,3 +36,8 @@ fruits_copy = [...fruits]
 console.log(fruits)
 console.log(fruits_copy)
 
+//Printing using spread operator
+
+console.log(fruits)
+console.log(...fruits)
+
